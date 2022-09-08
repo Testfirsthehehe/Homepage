@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="Style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+</head>
+<body>
+    <div class="full-container">
+        <!-- WELCOME -->
+        <div class="wrapper-welcome" id = "home">
+            <p>Welcome</p>
+        </div>
+
+        <!-- NAVIGASI -->
+        <div class="wrapper-nav">
+            <div class="brand">
+                <div class="first-name"><p>Co.</p></div>
+                <div class="last-name"><p>Milk</p></div>
+            </div>
+
+            <ul class = "navigasi">
+                <li><a href ="#home">Home</a></li>
+                <li><a href ="#about">About</a></li>
+                <li><a href ="#gallery">Gallery</a></li>
+                <li><a href ="#contact us">Contact Us</a></li>
+            </ul>
+
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- TAMPILAN UTAMA ATAU HOME -->
+        <div class="wrapper-home">
+            <div class="slogan">
+            <p>With Enought</p>
+            <h1>Coffee</h1>
+            <p>Nothing Is Impossible</p>
+            </div>
+
+            <div class="gambar">
+                <img src="img/kopi2.png" alt="">
+            </div>
+        </div>
+
+
+        <!-- GALLERY -->
+        <div class="wrapper-gallery">
+            <div class="title" id = "gallery">
+                <h2>Gallery</h2>
+            </div>
+            
+            <div class="gambar">
+                <img src="img/feature1.png" alt="">
+                <img src="img/feature1.png" alt="">
+                <img src="img/feature1.png" alt="">
+                <img src="img/feature1.png" alt="">
+                <img src="img/feature1.png" alt="">
+                <img src="img/feature1.png" alt="">
+                <img src="img/feature1.png" alt="">
+                <img src="img/feature1.png" alt="">
+                <img src="img/feature1.png" alt="">
+            </div>
+        </div>
+        
+
+        <!-- SARAN -->
+        <div class="wrapper-about">
+            <div class="keterangan">
+                <h1 class = "about" id = "about">About</h1>
+                <p class = "info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam cumque exercitationem velit ducimus voluptatem tempora ad. Quia illum, magnam, sit ea deleniti sunt asperiores dolor facilis distinctio consequuntur ullam mollitia est error aperiam? Reprehenderit perferendis repellat et earum vero consectetur eligendi doloremque! Fuga repudiandae aspernatur deleniti a molestias. Obcaecati ullam odit laudantium facere illo, explicabo delectus ab libero consequatur at deserunt, numquam quas adipisci. Quibusdam, impedit temporibus explicabo incidunt nostrum earum accusantium ea consectetur soluta. Minima, pariatur voluptas fugit cumque aliquam earum eius vitae, quidem, quos voluptate ab blanditiis voluptates qui sit! Porro a aliquid perferendis, asperiores qui accusantium placeat.</p>
+            </div>
+
+            <div class="laporan">
+                <p class = "email">Email</p>
+                <input type = "email" name = "" placeholder="Enter Email">
+                
+
+                <p class = "nama">Nama</p>
+                <input type = "text" name = "" placeholder="Enter Nama">
+
+                <p class = "message">Message</p>
+                <textarea type = "textarea" name = "" placeholder="Enter Message"></textarea>
+                
+                <input type = "button" name = "" value ="Kirim">
+            </div>
+                
+        </div>
+
+        <!-- MEMBUAT FOoTER -->
+        <div class = "wrapper-footer">
+            <div class = "footer-1">
+                <div class = "sidebar-1">
+                    <h3>Co.Milk</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsa hic laboriosam quis voluptas ipsum maxime voluptatum eveniet vel et consequatur alias, nam eaque inventore laborum? Soluta libero iusto ducimus?</p>
+                </div>
+
+                <div class="sidebar-2">
+                    <h3>Alamat</h3>
+                    <p>Jl. kampung bonge, RT.002/RW.006, Kec. Duren Sawit, Jakarta Timur 15122</p>
+                </div>
+
+                <div class="sidebar-3">
+                    <h3>Buka</h3>
+                    <p>Senin   8:00  - 19:00</p>
+                    <p>Selasa  8:00  - 19:00</p>
+                    <p>Rabu    8:00  - 19:00</p>
+                    <p>Kamis   8:00  - 19:00</p>
+                    <p>Jumat   10:00 - 19:00</p>
+                    <p>Sabtu   12:00 - 17:00</p>
+
+                </div>
+
+                <div class="sidebar-4">
+                    <h3>Media Sosial</h3>
+                    <ul class = "medsos" id = "contact us">
+                        <li><a href = "#" ><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href = "#" ><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href = "#" ><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-2">
+            <p>Copyright © 2022 Co.Milk. All Rights Reserved</p>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const wrapper_nav = document.querySelector('.wrapper-nav .navigasi');
+
+        menuToggle.addEventListener('click', function(){
+            wrapper_nav.classList.toggle('slide');
+        });
+
+    </script>
+</body>
+</html>
