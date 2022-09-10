@@ -370,7 +370,8 @@ hr.style-one {
   position: relative;
   padding-top: 110px;
   padding-bottom: 100px;
-  background: #fff url(../images/banner-bg-1-1.png) top right no-repeat; }
+  background: #fff url(../images/disini/1.jpg) top right no-repeat;
+  background-size: 1300px 1400px; }
   .banner-style-one:after, .banner-style-one:before {
     content: '';
     width: 200px;
@@ -528,8 +529,8 @@ hr.style-one {
           color: #fff; }
   .banner-style-one.home-page-two {
     padding-bottom: 277px;
-    background: #fff url(../images/banner-bg-1-2.png) top right no-repeat;
-    background-size: cover;
+    background: #fff url(../images/disini/1.jpg) center center no-repeat;
+    background-size: 1300px 1400px;
     margin-bottom: 60px; }
     .banner-style-one.home-page-two:before {
       border-color: rgba(255, 255, 255, 0.04); }
@@ -1463,8 +1464,8 @@ hr.style-one {
 */
 .feature-style-one {
   padding-top: 170px;
-  background: #FFFFFF url(../images/bg-curve-1-2.png) center top no-repeat;
-  background-size: cover;
+  background: #FFFFFF url(../images/disini/1.jpg) center center no-repeat;
+  background-size: 1300px 1400px;
   margin-top: -90px; }
   .feature-style-one .container {
     padding-bottom: 120px; }
@@ -1599,9 +1600,10 @@ hr.style-one {
 * 13.services styles mei
 */
 .services-style-one {
- background: rgb(255,255,255);
+  background: rgb(255,255,255);
 /* background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 5%, rgba(232,243,247,1) 43%);*/
- background: #E8F3F7 url(../images/banner-bg-4-1.png) top right no-repeat; 
+  background: #E8F3F7 url(../images/disini/1.jpg) center center no-repeat; 
+  background-size: 1300px 1400px;
   position: relative;
   padding-top: 120px;
   padding-bottom: 350px; }
@@ -1609,8 +1611,8 @@ hr.style-one {
     content: '';
     width: 100%;
     height: 251px;
-    background: #fff url(../images/bg-curve-4-1.png) center center no-repeat;
-    background-size: cover;
+    background: #fff url(../images/disini/1.jpg) center center no-repeat;
+    background-size: 1300px 1400px;
     position: absolute;
     bottom: 0;
     left: 0; }
@@ -1783,8 +1785,8 @@ hr.style-one {
 * 15.inner banner styles
 */
 .inner-banner {
-  background: #fff url(../images/inner-banner-1-1.png) center center no-repeat;
-  background-size: cover;
+  background: #fff url(../images/disini/1.jpg) center center no-repeat;
+  background-size: 1300px 1400px;
   position: relative;
   padding-bottom: 120px;
   padding-top: 255px; }
